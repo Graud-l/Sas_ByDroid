@@ -4,12 +4,14 @@ from datetime import datetime
 import os
 from dotenv import load_dotenv
 import openai  # Importer la bibliothèque OpenAI
+from mistralai import Mistral
 
 # Charger les variables d'environnement depuis le fichier .env
 load_dotenv()
 
 # Récupérer la clé API
-API_KEY = os.getenv("API_KEY")
+# API_KEY = os.getenv("API_KEY")
+API_KEY = "CH7boNWr5wDZZp0uwTAFNzTvNsFAP6UH"
 
 app = Flask(__name__)
 
@@ -19,7 +21,9 @@ class SasBydroid:
         self.company = "Sasaki Company"
         self.creators = ["Équipe Technique Sasaki", "Collaborateurs Open Source"]
         self.version = "1.0"
-        self.api_key = API_KEY  # Utiliser la clé API OpenAI
+        self.api_key = API_KEY  # Utiliser la clé API MistralAi
+        self.model = "codestral-latest"
+        self.client = Mistral(api_key=self.api_key)
 
     def get_response(self, query, lang="fr"):
         # Vérifiez si la clé API est disponible
@@ -28,14 +32,16 @@ class SasBydroid:
 
         # Appeler l'API OpenAI pour générer une réponse
         try:
-            openai.api_key = self.api_key
-            response = openai.Completion.create(
-                engine="text-davinci-003",  # Modèle GPT-3 ou GPT-4
-                prompt=query,
-                max_tokens=150,
-                temperature=0.7
+            chat_response = self.client.chat.complete(
+                model= self.model,
+                messages = [
+                    {
+                        "role": "user",
+                        "content": query,
+                    },
+                ]
             )
-            return response.choices[0].text.strip()
+            return chat_response.choices[0].message.content.strip()
         except Exception as e:
             return f"Erreur lors de l'appel à l'API OpenAI : {str(e)}"
 

@@ -1,41 +1,60 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sas_Bydroid - Sasaki Company</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
-  <link rel="stylesheet" href="/static/style.css">
-</head>
-<body>
-  <div class="container">
-       <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sas_Bydroid - Sasaki Company</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    />
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
         <h1>🤖 <span id="bot-name">Sas_Bydroid</span></h1>
-        <p>Un projet de <strong id="company">Sasaki Company</strong> (v.<span id="version">1.0</span>)</p>
+        <p>
+          Un projet de <strong id="company">Sasaki Company</strong> (v.<span
+            id="version"
+            >1.0</span
+          >)
+        </p>
       </header>
 
       <!-- Message de bienvenue -->
       <div class="welcome-message">
-        <p>Bienvenue sur la plateforme de Sas_Bydroid ! Posez vos questions sur la programmation, les réseaux, ou tout autre sujet technique.</p>
+        <p>
+          Bienvenue sur la plateforme de Sas_Bydroid ! Posez vos questions sur
+          la programmation, les réseaux, ou tout autre sujet technique.
+        </p>
       </div>
 
-    <div class="instructions">
-      <p>Posez vos questions sur la programmation, les réseaux, ou l'heure actuelle.</p>
-    </div>
-    <div class="chat-container" id="chat-container">
-      <!-- Messages apparaissent ici dynamiquement -->
+      <div class="instructions">
+        <p>
+          Posez vos questions sur la programmation, les réseaux, ou l'heure
+          actuelle.
+        </p>
+      </div>
+      <div class="chat-container" id="chat-container">
+        <!-- Messages apparaissent ici dynamiquement -->
+      </div>
+
+      <div class="input-area">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Écrivez votre question..."
+          autofocus
+        />
+        <button id="send-btn">Envoyer</button>
+      </div>
+
+      <footer>
+        <p>Développé par l'équipe Sasaki • © 2025 • Version 2.0</p>
+      </footer>
     </div>
 
-    <div class="input-area">
-      <input type="text" id="user-input" placeholder="Écrivez votre question..." autofocus>
-      <button id="send-btn">Envoyer</button>
-    </div>
-
-    <footer>
-      <p>Développé par l'équipe Sasaki • © 2025 • Version 2.0</p>
-    </footer>
-  </div>
-
-  <script src="/static/script.js"></script>
-</body>
+    <script src="/static/script.js"></script>
+  </body>
 </html>
