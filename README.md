@@ -3,7 +3,7 @@
 
 ## 🖼️ Aperçu  
 ![Interface Sas_ByDroid](sasbydroid-preview.png)  
-*Développée avec passion par [ChanJinhuyk](https://github.com/ChanJinhuyk) et [kingjr7](https://github.com/kingjr7)*  
+*Développée  par [ChanJinhuyk](https://github.com/ChanJinhuyk) et [kingjr7](https://github.com/kingjr7)*  
 
 ---
 
