@@ -1,9 +1,30 @@
-# 🤖 Sas_ByDroid  
-**Une IA polyvalente dédiée à la programmation et à l'informatique**  
+# ✨ 𝕾𝖆𝖘_𝕭𝖞𝕯𝖗𝖔𝖎𝖉 ✨  
+### *"Votre alliée IA pour maîtriser l'art du code"*  
 
-## 🖼️ Aperçu  
-![Interface Sas_ByDroid](sasbydroid-preview.png)  
-*Développée  par [ChanJinhuyk](https://github.com/ChanJinhuyk) et [kingjr7](https://github.com/kingjr7)*  
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&width=435&lines=%F0%9F%92%BB+Polyvalente++%7C++%F0%9F%9A%80+Rapide++%7C++%F0%9F%93%9A+Pédagogique" alt="Typing Animation">
+</p>
+
+---
+
+## 🎯 **Aperçu**  
+<div align="center">
+  <img src="sasbydroid-preview.png" alt="Interface Sas_ByDroid" width="70%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+</div>  
+
+<p align="right">
+  <em>Développée avec ❤️ par <a href="https://github.com/ChanJinhuyk">ChanJinhuyk</a> et <a href="https://github.com/kingjr7">kingjr7</a></em>  
+</p>
+
+---
+
+## 🌈 **Pourquoi choisir Sas_ByDroid ?**  
+<div style="background: linear-gradient(to right, #6a11cb, #2575fc); padding: 15px; border-radius: 8px; color: white; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+🚀 **Une IA taillée pour les défis techniques** :  
+- 🧠 Comprend et explique les concepts complexes en <b>temps réel</b>.  
+- 💡 Propose des <b>exemples pratiques</b> et des <b>bonnes pratiques</b>.  
+- 🔄 S'adapte à tous les niveaux, du <i>débutant</i> au <i>senior</i>.  
+</div>
 
 ---
 
