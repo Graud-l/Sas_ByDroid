@@ -1,5 +1,8 @@
 # 🤖 Sas_ByDroid  
 **Une IA polyvalente dédiée à la programmation et à l'informatique**  
+
+## 🖼️ Aperçu  
+![Interface Sas_ByDroid](sasbydroid-preview.png)  
 *Développée avec passion par [ChanJinhuyk](https://github.com/ChanJinhuyk) et [kingjr7](https://github.com/kingjr7)*  
 
 ---
