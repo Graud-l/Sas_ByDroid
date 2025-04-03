@@ -20,7 +20,7 @@
 
 ## 🌈 **Pourquoi choisir Sas_ByDroid ?**  
 <div style="background: linear-gradient(to right, #6a11cb, #2575fc); padding: 15px; border-radius: 8px; color: white; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-🚀 **Une IA taillée pour les défis techniques** :  
+🚀 Une IA taillée pour les défis techniques:  
 - 🧠 Comprend et explique les concepts complexes en <b>temps réel</b>.  
 - 💡 Propose des <b>exemples pratiques</b> et des <b>bonnes pratiques</b>.  
 - 🔄 S'adapte à tous les niveaux, du <i>débutant</i> au <i>senior</i>.  
