@@ -27,7 +27,7 @@
 ---
 
 ## 🚀 Comment l'utiliser ?  
-### Option 1 : Accès direct (si déployé en ligne)  
+
 1. Visitez [lien-de-déploiement.com](https://) *(à remplacer)*  
 2. Posez votre question dans le chat !  
 
@@ -37,3 +37,4 @@ git clone https://github.com/ChanJinhuyk/Sas_ByDroid.git
 cd Sas_ByDroid
 pip install -r requirements.txt  # Python 3.10+ requis
 python app.py
+```
